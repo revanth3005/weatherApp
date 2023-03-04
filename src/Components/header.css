@@ -1,0 +1,43 @@
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
+  );
+}
+.logo h5 {
+  font-size: 40px;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 40px;
+  padding-left: 30px;
+}
+header .icons {
+  display: flex;
+  gap: 10px;
+  font-size: 40px;
+  padding-right: 30px;
+}
+@media only screen and (max-width: 400px) {
+  .logo h5 {
+    font-size: 35px;
+  }
+  header .logo {
+    color: white;
+    font-size: 30px;
+  }
+  header .icons {
+    color: white;
+    font-size: 30px;
+  }
+}
